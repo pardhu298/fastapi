@@ -11,3 +11,4 @@ htmlcov/
 .mypy_cache/
 .idea/
 .vscode/
+fastapi_production_starter.egg-info
