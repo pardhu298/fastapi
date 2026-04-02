@@ -23,3 +23,7 @@ dev = [
 [tool.pytest.ini_options]
 addopts = "-q"
 testpaths = ["tests"]
+markers = [
+  "unit: fast isolated tests",
+  "integration: tests requiring configured external services (e.g. postgres)"
+]

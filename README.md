@@ -18,5 +18,17 @@ Health check: <http://127.0.0.1:8000/api/v1/health>
 ## Run tests
 
 ```bash
-pytest
+python -m pytest
+```
+
+Run only unit tests:
+
+```bash
+python -m pytest -m unit
+```
+
+Run only integration tests:
+
+```bash
+python -m pytest -m integration
 ```
